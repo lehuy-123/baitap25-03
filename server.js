@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // CONNECT DB
-mongoose.connect("mongodb://127.0.0.1:27017/inventory_db")
+mongoose.connect("mongodb://127.0.0.1:27017/hutech_db")
   .then(() => console.log("Connected DB"))
   .catch(err => console.log(err));
 
